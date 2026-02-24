@@ -247,9 +247,9 @@
 // }
 
 // Q4
-var remainingfuel = prompt ("Please enter how much litres of fuel is remaining?")
-if (remainingfuel <= 0.25) {
-    alert ("Please refill your tank")
-}else {
-    alert ("You can continue your journey")
-}
+// var remainingfuel = prompt ("Please enter how much litres of fuel is remaining?")
+// if (remainingfuel <= 0.25) {
+//     alert ("Please refill your tank")
+// }else {
+//     alert ("You can continue your journey")
+// }
