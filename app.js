@@ -206,14 +206,28 @@
 // alert ("Hello" + " " + user)
 
 // Q5
+// var num = prompt ("Please enter number of which table you would like to display")
+// console.log(num + " x 1 = " + +num*1 );
+// console.log(num + " x 2 = " + +num*2 );
+// console.log(num + " x 3 = " + +num*3 );
+// console.log(num + " x 4 = " + +num*4 );
+// console.log(num + " x 5 = " + +num*5 );
+// console.log(num + " x 6 = " + +num*6 );
+// console.log(num + " x 7 = " + +num*7 );
+// console.log(num + " x 8 = " + +num*8 );
+// console.log(num + " x 9 = " + +num*9 );
+// console.log(num + " x 10 = " + +num*10 );
+
+// Q6
 // var Subject1 = prompt ("Enter your first subject name", "English")
 // var Subject2 = prompt ("Enter your second subject name", "Maths")
 // var Subject3 = prompt ("Enter your third subject name", "Urdu")
-// var totalMarks = 1100
+// var totalMarks = 300
 // var Subject1marks = prompt ("Enter your" + " " + Subject1 + " " + "marks")
 // var Subject2marks = prompt ("Enter your" + " " + Subject2 + " " + "marks")
 // var Subject3marks = prompt ("Enter your" + " " + Subject3 + " " + "marks")
-// console.log("You obtained" + " " + (Subject1marks+Subject2marks+Subject3marks/totalMarks));
+// var totalObtainedMarks = (+Subject1marks + +Subject2marks + +Subject3marks);
+// console.log("You obtained" + " " + (totalObtainedMarks / totalMarks * 100)); 
 
 // CHP#9
 // Q1
@@ -253,3 +267,117 @@
 // }else {
 //     alert ("You can continue your journey")
 // }
+
+// Q6
+// var Subject1 = prompt ("Enter your first subject name", "English")
+// var Subject2 = prompt ("Enter your second subject name", "Maths")
+// var Subject3 = prompt ("Enter your third subject name", "Urdu")
+// var totalMarks = 300
+// var Subject1marks = prompt ("Enter your" + " " + Subject1 + " " + "marks")
+// var Subject2marks = prompt ("Enter your" + " " + Subject2 + " " + "marks")
+// var Subject3marks = prompt ("Enter your" + " " + Subject3 + " " + "marks")
+// var totalObtainedMarks = (+Subject1marks + +Subject2marks + +Subject3marks);
+// var MarksObtained = (totalObtainedMarks / totalMarks * 100);
+// console.log(MarksObtained);
+// if (MarksObtained >=85) {
+//     console.log("Grade A+");
+//     console.log("Excellent");
+// }
+// if (MarksObtained >=70) {
+//     console.log("Grade A");
+//     console.log("Good");
+// }
+// if (MarksObtained >=60) {
+//     console.log("Grade B");
+//     console.log("Need Improvement");
+// }
+// if (MarksObtained <60) {
+//     console.log("Grade F");
+//     console.log("Failed");
+// }
+
+// Q7
+// var actualNum = (6)
+// var guessNum = prompt("Guess the secret number")
+// if (guessNum == actualNum) {
+//     console.log("Bingo! Correct answer.");
+// } else {
+//     console.log("Incorrect Answer");
+// }
+// if (++guessNum == actualNum) {
+//     console.log("Close Enough Try adding +1");
+
+// } else if (--guessNum == actualNum) {
+//      console.log("Close Enough Try reducing -1");
+// }
+
+// Q8
+// var num = prompt(
+//     "Enter number you want check if it's divisible by 3"
+// )
+
+// if (num % 3 == 0) {
+//     console.log("Your Number is divisible by 3");
+
+// } else {
+//     console.log("Your number is not divisible by 3");
+    
+// }
+
+// Q9
+// let temprature = prompt ("Enter temprature")
+// if (temprature >= 40) {
+//     console.log("It's too hot outside");
+    
+// }
+// else if (temprature >= 30) {
+//     console.log("The weather is normal");
+    
+// }
+// else if (temprature >= 20) {
+//     console.log("Today weather is cool");
+    
+// }
+// else if (temprature >= 10) {
+//     console.log("OMG! today weather is soo cool");
+    
+// }
+
+// Q10
+// var firstNum = prompt ("Enter first Number")
+// var secondNum = prompt ("Enter second Number")
+// var Operation = prompt ("Enter Operation")
+// if (Operation == "-") {
+//     console.log(+firstNum - +secondNum);
+// }
+// if (Operation == "+") {
+//     console.log(+firstNum + +secondNum);
+// }
+// if (Operation == "*") {
+//     console.log(+firstNum * +secondNum);
+// }
+// if (Operation == "%") {
+//     console.log(+firstNum % +secondNum);
+// }
+// if (Operation == "/") {
+//     console.log(+firstNum / +secondNum);
+// }
+
+// CHP#12
+
+// Q1
+var character = prompt("Enter character of alphabet")
+ if (character >= 65) {
+    console.log("number is capital");
+    
+} if (character <=90) {
+    console.log("number is capital");
+    
+}
+else if (character >= 95) {
+    console.log("number is small");
+    
+} if (character <=120) {
+    console.log("number is small");
+    
+}
