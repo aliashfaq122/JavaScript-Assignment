@@ -321,26 +321,26 @@
 
 // } else {
 //     console.log("Your number is not divisible by 3");
-    
+
 // }
 
 // Q9
 // let temprature = prompt ("Enter temprature")
 // if (temprature >= 40) {
 //     console.log("It's too hot outside");
-    
+
 // }
 // else if (temprature >= 30) {
 //     console.log("The weather is normal");
-    
+
 // }
 // else if (temprature >= 20) {
 //     console.log("Today weather is cool");
-    
+
 // }
 // else if (temprature >= 10) {
 //     console.log("OMG! today weather is soo cool");
-    
+
 // }
 
 // Q10
@@ -365,19 +365,184 @@
 
 // CHP#12
 
+
 // Q1
-var character = prompt("Enter character of alphabet")
- if (character >= 65) {
-    console.log("number is capital");
-    
-} if (character <=90) {
-    console.log("number is capital");
-    
-}
-else if (character >= 95) {
-    console.log("number is small");
-    
-} if (character <=120) {
-    console.log("number is small");
-    
-}
+// let char = prompt("Enter a character", "A")
+// let ascii = char.charCodeAt(0)
+// if (ascii >= 65 && ascii <= 90) {
+//      alert("The character is an uppercase letter")
+//  }
+
+//  Q2
+// Question # 2
+// var num1 = 5
+// var num2 = 2
+// if (num1 > num2) {
+//     console.log(num1 + " is greater")    
+// } else {
+//     console.log(num2 + " is greater")    
+// }
+
+// Q3
+// var Num = prompt ("Please enter a number to identify wether it is positive or negative")
+// if (Num < 0) {
+//     console.log("Your number is negative");
+// }
+
+
+// if (Num > 0) {
+//     console.log("Your number is positive");
+// }
+
+// if (Num == 0) {
+//    console.log("Your number is zero");
+// }
+// else {
+//     console.log("Please enter a valid number");  
+// }
+
+// Q4
+// var Num = prompt("Please enter an alphabet to check if it's vowel or not")
+// if (Num.length > 1) {
+//     console.log("Please enter a single alphabet");
+// }
+// } else if (character == "a" || character == "e" || character == "i" || character == "o" || character == "u") {
+//     console.log("Your character is vowel")
+// } else {
+//     console.log("Your character is not vowel")
+// }
+
+// Q5
+// var userPassword = prompt("Please enter your password")
+// var correctPassword = "Ali122"
+// if (userPassword.length == 0) {
+//     console.log("Please enter a password");
+// }
+// else if (userPassword == correctPassword) {
+//     console.log("You have gained access of your account");
+// }
+// else {
+//     console.log("Please enter correct password");
+// }
+
+// Q6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening";
+// }
+// console.log(greeting)
+
+// Q7
+// var time = prompt("Enter current time (e.g. 1900)", 1900)
+// if (time >= "0000" && time < 1200) {
+//     console.log("Good morning!")
+// } else if (time >= 1200 && time < 1700) {
+//     console.log("Good afternoon!")
+// } else if (time >= 1700 && time < 2100) {
+//     console.log("Good evening!")
+// } else if (time >= 2100 && time < 2359) {
+//     console.log("Good night!")
+// }
+
+// CHP# 14-16
+
+// Q1
+// let studentNames = []
+// studentNames[0] = "Ali"
+// studentNames[1] = "Ali"
+// studentNames[2] = "Ali"
+// studentNames[3] = "Ali"
+// console.log(studentNames);
+
+// Q2
+// let studentNames = []
+// studentNames[0] = "Ali"
+// studentNames[1] = "Ali"
+// studentNames[2] = "Ali"
+// studentNames[3] = "Ali"
+// console.log(studentNames);
+
+// Q3
+// var fruits = ["Apple", "Mango", "Banana"]
+// console.log(fruits)
+
+// Q4
+// var numbers = [1, 2, 3]
+// console.log(numbers)
+
+// Q5
+// var boolean = [true, false]
+// console.log(boolean)
+
+// Q6
+// var mixedArray = ["Red" , 2 , "false"]
+// console.log(mixedArray);
+
+// Q7
+// var qualifiction = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil.", "PhD"]
+// console.log(qualifiction);
+
+// console.log("1)", qualifiction[0])
+// console.log("2)", qualifiction[1])
+// console.log("3)", qualifiction[2])
+// console.log("4)", qualifiction[3])
+// console.log("5)", qualifiction[4])
+// console.log("6)", qualifiction[5])
+// console.log("7)", qualifiction[6])
+// console.log("8)", qualifiction[7])
+
+// Q8
+// var studentNames = ["Ali", "Muaaz", "zain"]
+// var studentScores = [490, 350, 400]
+// var totalMarks = 500
+// console.log("Score of", studentNames[0], "is", studentScores[0] + ".", "Percentage:", studentScores[0] / totalMarks * 100 + "%")
+// console.log("Score of", studentNames[1], "is", studentScores[1] + ".", "Percentage:", studentScores[1] / totalMarks * 100 + "%")
+// console.log("Score of", studentNames[2], "is", studentScores[2] + ".", "Percentage:", studentScores[2] / totalMarks * 100 + "%");
+
+// Q9
+// var colors = ["Red", "Green", "Blue"]
+// console.log(colors)
+
+// var colorToAddBeginning = prompt("Enter a color to add to the beginning", "Purple")
+// colors.unshift(colorToAddBeginning)
+// console.log(colors)
+
+// colors.unshift("Brown", "Orange")
+// console.log(colors)
+
+// colors.shift()
+// console.log(colors)
+
+// colors.pop()
+// console.log(colors)
+
+// var index = 2
+// var colorName = prompt("What color you wants to add?", "Gray")
+// colors.splice(index, 0, colorName)
+// console.log(colors)
+
+// var index = 2
+// var deleteCount = 1
+// colors.splice(index, deleteCount)
+// console.log(colors)
+
+// Q10
+// var studentScores = [320, 230, 480, 120]
+// console.log("Scores of Studets:", studentScores)
+// var orderedStudentScore = studentScores.sort()
+// console.log("Ordered Scores of Student", orderedStudentScore)
+
+// Q11
+// var citiesList = ["Karaci", "Lahore", "Islamabad", "Quetta", "Peshawar"]
+// console.log("Cities List", citiesList)
+// var selectedCitiesList = citiesList.slice(2, 4)
+// console.log("Selected cities list", selectedCitiesList)
+
+// Q12
+// var arr = ["This", "is", "my", "cat"]
+// var joinArr = arr.join()
+// console.log(joinArr)
